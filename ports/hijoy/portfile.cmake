@@ -1,9 +1,9 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO JoyHive/HiJoy
-    REF 48ac5a1ea3b38a75d40b6165a8d3df2180a21496
-    SHA512 47ff6d289dcc22681eea6da465b0348172921e7cafff8fd57a1540d3232cc6b53250a4625c954ee0944c87963b17680ecbc3ea123e43c2c822efe0dc6fa6cef3
-    HEAD_REF main
+    REF temp
+    HEAD_REF temp
+    SHA512 47ff6d289dcc22681eea6da465b0348172921e7cafff8fd57a1540d3232cc6b53250a4625c954ee0944c87963b17680ecbc3ea123e43c2c822efe0dc6fa6cef3 
 )
 
 vcpkg_cmake_configure(
