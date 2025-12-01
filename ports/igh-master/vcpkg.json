@@ -1,14 +1,10 @@
 {
-  "name": "hijoy",
+  "name": "igh-master",
   "version": "0.0.1",
-  "description": "{hijoy} A high-performance runtime framework for modern robotics.",
+  "description": "{igh-master} EtherCAT Master.",
   "homepage": "https://github.com/JoyHive/HiJoy",
   "license": "MIT",
   "dependencies": [
-    "cli11",
-    "concurrentqueue",
-    "fmt",
-    "protobuf",
     {
       "name": "vcpkg-cmake",
       "host": true
@@ -16,8 +12,6 @@
     {
       "name": "vcpkg-cmake-config",
       "host": true
-    },
-    "yalantinglibs",
-    "yaml-cpp"
+    }
   ]
 }
