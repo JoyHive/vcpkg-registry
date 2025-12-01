@@ -2,7 +2,7 @@
   "name": "igh-master",
   "version": "0.0.1",
   "description": "{igh-master} EtherCAT Master.",
-  "homepage": "https://github.com/JoyHive/HiJoy",
+  "homepage": "https://github.com/JoyHive/hardware_interface",
   "license": "MIT",
   "dependencies": [
     {
