@@ -1,0 +1,4 @@
+The package igh-ethercat-master provides CMake targets:
+
+    find_package(igh-ethercat-master CONFIG REQUIRED)
+    target_link_libraries(app PRIVATE igh-ethercat-master::ethercat)
