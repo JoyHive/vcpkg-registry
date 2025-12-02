@@ -2,7 +2,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO JoyHive/HiJoy
     REF temp
-    SHA512 be6598dac5c44f4e9b1c2ef0b7ef6cb56ba9aaf1c251b13170c4390d7fb879682c40a98c73ef33601a2c13b681d162de7055590e9aa798cb3a0130e4bc809dbe
+    SHA512 0
     HEAD_REF temp
     AUTHORIZATION_TOKEN "$ENV{GITHUB_TOKEN}"
     USE_TARBALL_API
@@ -13,6 +13,7 @@ vcpkg_cmake_configure(
     OPTIONS
         -DHIJOY_INSTALL=ON
         -DHIJOY_OS_TYPE="gnulinux"
+        -DBUILD_SHARED_LIBS=ON
 )
 
 vcpkg_cmake_install()

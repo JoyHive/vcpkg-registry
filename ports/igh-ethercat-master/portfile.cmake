@@ -3,6 +3,9 @@ vcpkg_from_github(
     REPO JoyHive/igh-ethercat-master
     REF main
     SHA512 0
+    HEAD_REF temp
+    AUTHORIZATION_TOKEN "$ENV{GITHUB_TOKEN}"
+    USE_TARBALL_API
 )
 
 file(
