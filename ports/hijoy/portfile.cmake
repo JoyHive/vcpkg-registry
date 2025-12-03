@@ -13,11 +13,13 @@ vcpkg_cmake_configure(
     OPTIONS
         -DHIJOY_INSTALL=ON
         -DHIJOY_OS_TYPE="gnulinux"
-        -DBUILD_SHARED_LIBS=ON
 )
 
 vcpkg_cmake_install()
-vcpkg_cmake_config_fixup(CONFIG_PATH lib/cmake/hijoy)
+vcpkg_cmake_config_fixup(
+    PACKAGE_NAME hijoy
+    CONFIG_PATH share/hijoy
+)
 vcpkg_fixup_pkgconfig()
 vcpkg_copy_pdbs()
 
