@@ -1,4 +1,4 @@
 The package hijoy provides CMake targets:
 
     find_package(hijoy CONFIG REQUIRED)
-    target_link_libraries(main PRIVATE hijoy::hijoy)
+    target_link_libraries(main PRIVATE hijoy::core)
