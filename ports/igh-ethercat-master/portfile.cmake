@@ -5,6 +5,7 @@ vcpkg_from_github(
     SHA512 0
     HEAD_REF main
     AUTHORIZATION_TOKEN "$ENV{GITHUB_TOKEN}"
+    USE_TARBALL_API
 )
 
 file(

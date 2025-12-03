@@ -5,6 +5,7 @@ vcpkg_from_github(
     SHA512 be6598dac5c44f4e9b1c2ef0b7ef6cb56ba9aaf1c251b13170c4390d7fb879682c40a98c73ef33601a2c13b681d162de7055590e9aa798cb3a0130e4bc809dbe
     HEAD_REF temp
     AUTHORIZATION_TOKEN "$ENV{GITHUB_TOKEN}"
+    USE_TARBALL_API
 )
 
 vcpkg_cmake_configure(
