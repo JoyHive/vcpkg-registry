@@ -16,11 +16,11 @@ vcpkg_cmake_configure(
 )
 
 vcpkg_cmake_install()
-vcpkg_cmake_config_fixup(
-    PACKAGE_NAME hijoy
-    CONFIG_PATH share/hijoy
-)
+
+vcpkg_cmake_config_fixup(CONFIG_PATH share/hijoy)
+
 vcpkg_fixup_pkgconfig()
+
 vcpkg_copy_pdbs()
 
 file(REMOVE_RECURSE
