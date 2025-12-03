@@ -9,12 +9,12 @@ vcpkg_from_github(
 )
 
 file(
-    INSTALL "${SOURCE_PATH}/include"
+    INSTALL "${SOURCE_PATH}/include/"
     DESTINATION "${CURRENT_PACKAGES_DIR}/include"
 )
 
 file(
-    INSTALL "${SOURCE_PATH}/lib"
+    INSTALL "${SOURCE_PATH}/lib/"
     DESTINATION "${CURRENT_PACKAGES_DIR}/lib"
 )
 
