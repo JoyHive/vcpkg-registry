@@ -1,12 +1,4 @@
-vcpkg_from_github(
-    OUT_SOURCE_PATH SOURCE_PATH
-    REPO JoyHive/hijoy
-    REF main
-    SHA512 94cdf488d3dab73667d643afbfc44aa708c4d234a4c09e488622af061e685145867a97da4167e1c2563454c2746c79e6a34b18a53d057a076bfdc4d83c94f9d7
-    HEAD_REF main
-    AUTHORIZATION_TOKEN "$ENV{GITHUB_TOKEN}"
-    USE_TARBALL_API
-)
+set(SOURCE_PATH "/home/yii/work/hijoy")
 
 vcpkg_cmake_configure(
     SOURCE_PATH "${SOURCE_PATH}"

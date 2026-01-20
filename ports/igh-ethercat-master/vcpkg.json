@@ -1,7 +1,7 @@
 {
   "name": "igh-ethercat-master",
   "version": "0.0.1",
-  "port-version": 0,
+  "port-version": 1,
   "description": "{igh-master} EtherCAT Master.",
   "homepage": "https://github.com/JoyHive/igh-ethercat-master",
   "license": "MIT",

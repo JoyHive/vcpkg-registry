@@ -2,11 +2,11 @@
   "default": {
     "hijoy": {
       "baseline": "0.0.1",
-      "port-version": 0
+      "port-version": 1
     },
     "igh-ethercat-master": {
       "baseline": "0.0.1",
-      "port-version": 0
+      "port-version": 1
     }
   }
 }
