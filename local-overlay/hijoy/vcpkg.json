@@ -1,7 +1,7 @@
 {
   "name": "hijoy",
   "version": "0.0.1",
-  "port-version": 8,
+  "port-version": 0,
   "description": "{hijoy} A high-performance runtime framework for modern robotics.",
   "homepage": "https://github.com/JoyHive/hijoy",
   "license": "MIT",
@@ -10,6 +10,8 @@
     "concurrentqueue",
     "fmt",
     "protobuf",
+    "yaml-cpp",
+    "yalantinglibs",
     {
       "name": "vcpkg-cmake",
       "host": true
@@ -17,8 +19,6 @@
     {
       "name": "vcpkg-cmake-config",
       "host": true
-    },
-    "yalantinglibs",
-    "yaml-cpp"
+    }
   ]
 }
