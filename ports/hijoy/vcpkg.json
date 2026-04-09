@@ -11,8 +11,6 @@
     "drogon",
     "fmt",
     "protobuf",
-    "yalantinglibs",
-    "yaml-cpp"
     {
       "name": "vcpkg-cmake",
       "host": true
@@ -21,5 +19,7 @@
       "name": "vcpkg-cmake-config",
       "host": true
     },
+    "yalantinglibs",
+    "yaml-cpp"
   ]
 }
